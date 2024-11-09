@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Intro Page</title>
+    <style>
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="indus_valley.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Akash Pinnaka</h1>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/akash-pinnaka-05604390/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Akash-Pinnaka" target="_blank">GitHub</a> |
+            <a href="Akash Pinnaka.docx" target="_blank">Resume</a>
+        </div>
+    </div>
+
+
+    <div class="aboutMe">
+        <h2>About Me</h2>
+        <p>I am a Data Engineer with experience building scalable data pipelines, doing big data processing, and
+            working with data warehouses.
+            My focus has been on working with cloud services, primarily AWS and some Azure, as well as big data
+            frameworks like Spark and Databricks.
+            I've worked extensively on ETL and CI/CD pipelines, real-time streaming data, batch processing of large
+            scale datasets utilizing python and SQL
+        </p>
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <table border="1">
+            <tr>
+                <td>Languages</td>
+                <td>Python, SQL, Scala, Shell Scripting</td>
+            </tr>
+            <tr>
+                <td>Data Processing Frameworks</td>
+                <td>Spark, Databricks, SnowFlake, Flink, Kafka, Airflow</td>
+            </tr>
+            <tr>
+                <td>Cloud & DevOps Tools</td>
+                <td>AWS, Azure, Terraform, Docker, Kubernetes, Jenkins, Github Actions</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>My Projects</h2>
+
+    <div class="gridContainer" style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
+        <div class="project">
+            <p><strong>Project Name:</strong> ETL Data Pipeline<br>
+                <strong>Description:</strong> Developed an automated ETL pipeline to efficiently handle data.
+                Leveraged AWS Glue for data cataloging, Lambda for event-driven automation, and Terraform to manage
+                infrastructure as code.
+            </p>
+            <a href="https://github.com/Akash-Pinnaka/E1_ETL_Data_Pipeline" target="_blank">
+                <button>View</button>
+            </a>
+        </div>
+
+        <div class="project">
+
+            <p><strong>Project Name:</strong> Spark Batch Processing<br>
+                <strong>Description:</strong> Designed and implemented a batch processing pipeline using AWS EMR and
+                PySpark to process large datasets efficiently.
+            </p>
+
+            <a href="https://github.com/Akash-Pinnaka/E2_Batch_Processing_EMR" target="_blank">
+                <button>View</button>
+            </a>
+        </div>
+
+        <div class="project">
+
+            <p><strong>Project Name:</strong> Real time Streaming Data processing<br>
+                <strong>Description:</strong> Developed a real-time data streaming application using Amazon Kinesis and
+                Apache Flink to process NYC taxi trip data.
+                Ingested data into openSearch for indexing and visualization.
+            </p>
+
+            <a href="https://github.com/Akash-Pinnaka/nyc-taxi-kinesis-application" target="_blank">
+                <button>View</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="contactForm">
+        <h2>Contact?</h2>
+        <form>
+            <label for="senderName">Name:</label><br>
+            <input type="text" name="senderName" id="senderName">
+            <br><br>
+            <label for="senderEmail">Email:</label><br>
+            <input type="email" name="senderEmail" id="senderEmail">
+            <br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="20" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
